@@ -5,4 +5,11 @@
 <h3 *ngFor="let note of notes">
   <b>*{{notes.description}}</b>
   <button (click)="deleteNotes(note.id)">Delete Notes</button>
+
+  <table>
+    <tr ng-repeat="x in names">
+      <td>Maria</td>
+      <td>Maria</td>
+    </tr>
+  </table>
 </h3>
